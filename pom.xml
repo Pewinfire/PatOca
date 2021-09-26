@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>net.ausiasmarch</groupId>
-    <artifactId>icosalino</artifactId>
+    <artifactId>ocaJsp</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
-    <name>icosalino</name>
+    <name>ocaJsp</name>
 
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
