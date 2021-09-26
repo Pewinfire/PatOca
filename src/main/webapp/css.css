@@ -1,45 +1,111 @@
-#ca0, #ca15, #ca23{
-    border-top: 9px double black;
-    border-left: 9px double black;
+@font-face {
+  font-family: "VT323";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/vt323/v12/pxiKyp0ihIEF2isfFJU.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
 }
-#ca12{
-    border-bottom: 9px double black;
-    border-left: 9px double black;
+body {
+  background-color: rgb(133, 132, 132);
+  font-family: "VT323", "Acme", sans-serif;
 }
-#ca8{
-    border-bottom: 9px double black;
-    border-right: 9px double black;
+table,
+th,
+td {
+  border: 0.5px dashed black;
 }
-#ca4, #ca18{
-    border-top: 9px double black;
-    border-right: 9px double black;
+#ca0,
+#ca15,
+#ca23 {
+  border-top: 9px double black;
+  border-left: 9px double black;
 }
-#ca1, #ca2, #ca3, #ca9, #ca10, #ca11, #ca21, #ca24{
-    border-top: 9px double black;
-    border-bottom: 9px double black;
+#ca12 {
+  border-bottom: 9px double black;
+  border-left: 9px double black;
 }
-#ca5, #ca6, #ca7, #ca13, #ca14, #ca19{
-    border-left: 9px double black;
-    border-right: 9px double black;
+#ca8 {
+  border-bottom: 9px double black;
+  border-right: 9px double black;
+}
+#ca4,
+#ca18 {
+  border-top: 9px double black;
+  border-right: 9px double black;
+}
+#ca1,
+#ca2,
+#ca3,
+#ca9,
+#ca10,
+#ca11,
+#ca21,
+#ca24 {
+  border-top: 9px double black;
+  border-bottom: 9px double black;
+}
+#ca5,
+#ca6,
+#ca7,
+#ca13,
+#ca14,
+#ca19 {
+  border-left: 9px double black;
+  border-right: 9px double black;
 }
 td {
-    width: 100px;
-    height: 100px;
-    
+  width: 100px;
+  height: 100px;
 }
-.botones{
-    width: 80%;
-    position: absolute;
-    bottom:45%;
+.botones {
+  width: 80%;
+  position: absolute;
+  bottom: 45%;
 }
-img{
-    width:80px;
-    height: 80px;
-}
-
-h2{
-    position:absolute;
-   
-    top:0%
+img {
+  width: 80px;
+  height: 80px;
 }
 
+h2 {
+  position: absolute;
+
+  top: 0%;
+}
+
+.dado1 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 10%;
+  right: 10%;
+  border: 3px solid black;
+}
+
+.dado2 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 20%;
+  right: 10%;
+  border: 3px solid black;
+}
+
+.t1 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 10%;
+  right: 20%;
+}
+.t2 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 20%;
+  right: 20%;
+}
