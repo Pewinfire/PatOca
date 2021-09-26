@@ -1,0 +1,45 @@
+#ca0, #ca15, #ca23{
+    border-top: 9px double black;
+    border-left: 9px double black;
+}
+#ca12{
+    border-bottom: 9px double black;
+    border-left: 9px double black;
+}
+#ca8{
+    border-bottom: 9px double black;
+    border-right: 9px double black;
+}
+#ca4, #ca18{
+    border-top: 9px double black;
+    border-right: 9px double black;
+}
+#ca1, #ca2, #ca3, #ca9, #ca10, #ca11, #ca21, #ca24{
+    border-top: 9px double black;
+    border-bottom: 9px double black;
+}
+#ca5, #ca6, #ca7, #ca13, #ca14, #ca19{
+    border-left: 9px double black;
+    border-right: 9px double black;
+}
+td {
+    width: 100px;
+    height: 100px;
+    
+}
+.botones{
+    width: 80%;
+    position: absolute;
+    bottom:45%;
+}
+img{
+    width:80px;
+    height: 80px;
+}
+
+h2{
+    position:absolute;
+   
+    top:0%
+}
+

@@ -9,7 +9,8 @@
               integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
         <link rel="stylesheet" href="css.css">
         <title>Juego de la oca</title>    
-       
+       <link rel="icon" 
+      href="favicon.ico">
     </head>
     <body>
         <div class="container mt-5">
